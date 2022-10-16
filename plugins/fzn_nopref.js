@@ -4,8 +4,8 @@
         case 'assalamualaikum':
           fzn.sendMessage(from, 'Waalaikumsalam', text, { quoted : msg })
           break
-        case 'p':
-          reply('Salam Aja om')
+        case 'Aiman':
+          reply('ye saye ')
           break
   			}
 			
