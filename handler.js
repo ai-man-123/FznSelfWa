@@ -47,7 +47,7 @@ isCharge: "" || false}
 
 ///Function
 selfna = true
-fakenya = 'FAZONE'
+fakenya = 'Aiman'
 apikey = 'GaluhTbit'
 LolApi = 'genbotkey' //beli apikey di api.lolhuman.xyz//
 var AFK = {
@@ -103,8 +103,8 @@ module.exports = fzn = async (fzn, msg) => {
 		const groupAdmins = isGroup ? getGroupAdmins(groupMembers) : ''
 		const isBotGroupAdmins = groupAdmins.includes(botNumber) || false
 		const isGroupAdmins = groupAdmins.includes(sender) || false
-        const myname = msg.key.fromMe ? fzn.user.jid : fzn.contacts[sender] || { notify: jid.replace(/@.+/, '') }
-        const pushname = msg.key.fromMe ? fzn.user.name : myname.notify || myname.vname || myname.name || '-'
+                const myname = msg.key.fromMe ? fzn.user.jid : fzn.contacts[sender] || { notify: jid.replace(/@.+/, '') }
+                const pushname = msg.key.fromMe ? fzn.user.name : myname.notify || myname.vname || myname.name || '-'
 		const isMedia = (type === 'imageMessage' || type === 'videoMessage')
 		const isQuotedImage = type === 'extendedTextMessage' && content.includes('imageMessage')
 		const isQuotedPesan = type === 'extendedTextMessage' && content.includes('conversation')
